@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.Scanner;
+import com.company.*;
 
 public class Main {
 
@@ -21,7 +22,6 @@ public class Main {
 
                 Libro libro = new Libro("Effective java",450,150);
 
-                libro.cargarVariosAutores();
 
                 libro.setPrecio(500);
                 libro.setStock(200);
